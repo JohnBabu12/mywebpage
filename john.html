@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- font awesome cdnjs link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- /css file link -->
+    <link rel="stylesheet" href="style.css">
+
+   
+
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i> 
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Skill">Skill</a>
+            <a href="#Project">Project</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h1>John Babu</h1>
+            <h3>An <span>Embedded systems Engineer</span></h3>
+            <p>Passionate about real-time technologies. Dedicated to innovation and problem-solving in Embedded Systems. Excited to contribute expertise to cutting-edge projects.</p>
+            <div class="social-media">
+                <a href="add your linkdlen url"><i class='bx bxl-linkedin'></i></a>
+                <a href="add ur github url"><i class='bx bxl-github'></i></a>
+                <a href="add ur instgram url"><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+            <!-- Add this code within your header section, before or after other navigation links -->
+            <a href="Add your Resume" target="_blank" download class="btn">Download Resume</a>
+
+            <!-- <a href="#" class="btn">Download CV</a> -->
+        </div>
+        <div class="home-img">
+            <img src="images/pp3.jpg" hegith ="150" width="350" alt="">
+        </div>
+
+    </section>
+
+    <!-- ABout section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/pp3.jpg" height="420" width="350" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>  Me </span></h2>
+            <h3>Embedded systems Engineer</h3>
+            <p>As an embedded systems enthusiast, I thrive on the intricate dance of hardware and software. Proficient in C/C++ and adept with controllers like ATmega32, 8051, and LPC2129, I relish the challenge of real-time devices and advanced technologies</p>
+                         <p>My expertise extends to understanding Linux OS intricacies and developing driver codes, while my knack for interfacing sensors via UART, SPI, and I2C ensures seamless integration. With a passion for innovation and a penchant for problem-solving, I am driven to push the boundaries of embedded systems and contribute to the forefront of technological advancement.</p>
+
+                <a href="#" class="btn">Read More</a>
+        </div>
+       
+    </section>
+
+    <!-- section  Skill-->
+  
+    <section class="Skill" id="Skill">
+        <h2 class="heading"> My <span>   Skills</span></h2>
+        <div class="skill-container">
+            <div class="skill-box">
+               <h3><span>Programing Langauage</span></h3>
+                <p>C Langauage</p>
+                <p>C++ Langauage</p>
+                <p>Basics of python </p>
+            </div>
+           
+            <div class="skill-box">
+                <h3><span>Course Work</span></h3>
+                <p>Embedded systems course by Vector India</p>
+                <p>Introduction to Embedded systems Software Development by coursera</p>
+                <p>Linux- The command line interface by coursera</p>
+            </div>
+
+            <div class="skill-box">
+                <h3><span>Operating Systems</span></h3>
+                <p>Linux</p>
+                <p>Windows</p>
+                <P>RTOS</P>
+                
+            </div>
+
+            <div class="skill-box">
+               <h3><span> controllers</span></h3>
+                <p>ARM7 TDMI(LPC2129)</p>
+                <p>8051(AT89C51)</p>
+                <p>ATMEGA32(ARDUINO)</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- project section -->
+    <section class="Project" id="Project">
+        <h2 class="heading">My <span>Project</span></h2>
+        <div class="Project-container">
+            <div class="Project-box">
+                <!---<img src="Add your project image" height="400" width="600" alt="">--->
+                <div class="about-content">
+                    <h4 class="heading"><span>1. Multi Purpose E-card System using LPC2129.</span></h4>
+                    <p>The Multi-Purpose eCard System integrates EEPROM (AT24C256) for secure data storage, RFID reader for 
+                        authentication, and RTC for validity checking. Stored data includes Aadhar, PAN, license, and voter ID, 
+                        accessible only with the correct password. RFID authentication ensures card legitimacy, while real-time 
+                        validity checking denies access to expired cards. Hardware components communicate seamlessly, employing 
+                        SPI for EEPROM and UART for RFID. With encryption and strict access controls, the system guarantees 
+                        confidentiality and integrity of stored data. This versatile solution caters to identity management needs, 
+                        offering security, efficiency, and ease of use in accessing personal identification information. </p>
+                    <a href="#"><i class='btn'></i></a>
+                </div>
+            </div>
+
+            <div class="Project-box">
+               <!----<img src="Add your project image" height="400" width="600" alt="">-->
+                <div class="about-content">
+                    <h4 class="heading"><span>2.Arithmetic Calculator Project using LPC2129.</span></h4>
+                    <p>
+                        Designed and implemented an Arithmetic Calculator utilizing the LPC2129 microcontroller with  
+                        ARM7TDMI-S core. The project features a user-friendly interface with a 16x2 LCD display and keypad for 
+                        basic arithmetic operations, including addition, subtraction, multiplication, and division. Leveraged efficient 
+                        memory management for operand storage and incorporated real-time capabilities for instant calculation and 
+                        display of results. The project showcases error-handling mechanisms to ensure accurate calculations and 
+                        operates with low power consumption, making it suitable for educational purposes and as a practical learning 
+                        tool for embedded systems development.
+                        </p>
+                    <a href="#"><i class='btn'></i></a>
+                </div>
+            </div>
+
+            <div class="Project-box">
+                <!--<img src="image/Ayna.jpeg" height="400" width="600" alt="">-->
+                <div class="about-content">
+                    <h4 class="heading"><span>3.Rain Protected Grain Project.</span></h4>
+                    <p>Conceived and executed an innovative solution for safeguarding grain heaps during rain by designing and 
+                        implementing an automated covering system. Leveraged Arduino Nano and rain-detecting sensors to detect 
+                        precipitation and deploy protective covering sheets automatically. This project demonstrates my proficiency in 
+                        embedded systems, sensor integration, and automation, showcasing a practical application of technology for 
+                        agricultural preservation.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+           <!---- <div class="Project-box">
+                <img src="Add your project image" height="400" width="600" alt="">
+                <div class="Project-layer">
+                    <h4>Add your project name</h4>
+                    <p>Add your project content.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="Contact" id="Contact">
+        <h2 class="heading">Contact<span>  Me!</span></h2>
+
+        <form action="#">
+        
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="Number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="Submit" value="send Message" class="btn">
+            
+       </form>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p> Copyright &copy; 2023 by learnnew_thing0 | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll revel -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- javascript -->
+    <script src="jhon.js"></script>
+
+
+    
+</body>
+</html>
